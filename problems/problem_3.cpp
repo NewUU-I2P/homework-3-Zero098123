@@ -1,5 +1,3 @@
-#include <string>
-#include <wsman.h>
 
 using namespace std;
 
