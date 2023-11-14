@@ -10,7 +10,7 @@ std::string problemSolution4(const std::string & macAddress) {
     }else if(macAddress[1]%2!=0){
         answwer="Multicast";
     }
-    return answwer
+    return answwer;
 
 
 }
