@@ -2,8 +2,15 @@
 #include <sstream>
 
 std::string problemSolution4(const std::string & macAddress) {
-    // write your code here
+    std::string answwer;
+    if (macAddress=="FF:FF:FF:FF:FF:FF"){
+        answwer="Broadcast";
+    } else if (macAddress[1]%2==0){
+        answwer="Unicast";
+    }else if  (macAddress[1]%2==0){
+        answwer="Multicast";
+    }
+    return answwer
 
-    // make use of control flow statements
-    // return result;
+
 }
