@@ -1,10 +1,10 @@
+#include <string>
+#include <sstream>
 
-using namespace std;
-
-string problemSolution3(float height, char S) {
+std::string problemSolution3(float height, char S) {
     // write your code here
 
-string answer;
+std::string answer;
 if(S == 'M') {
     if (height < 1.70) {
         answer = "Short";
